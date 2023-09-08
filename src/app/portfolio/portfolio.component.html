@@ -1,0 +1,25 @@
+<div class="imagePopUp position-fixed w-100 h-100 bg-primary bg-opacity-10 z-3 top-0 start-0 d-none" #pup (click)="ClodePopUp()">
+    <div class="Image d-flex justify-content-center align-items-center h-100">
+        <img src="../../assets/port2.png" #showImage class="w-50"/>
+    </div>
+</div>
+<div class="container">
+    <div id="portofolio" class="text-center p-5">
+        <h1 class="mt-5">PORTFOLIO COMPONENT</h1>
+        <div class="d-flex align-items-center justify-content-center mb-3">
+            <div class="befor"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="befor"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4" *ngFor="let i of imageList;let ind=index">
+                <div class="item text-center position-relative" (click)="ShowPopUp(ind)" (mouseenter)="ShowLayer(ind)" (mouseleave)="HideLayer()">
+                    <div class="layer rounded-3 position-absolute w-100 h-100 d-flex justify-content-center align-items-center" #showLayer>
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                    <img [src]="i"  class="w-100 rounded-3"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

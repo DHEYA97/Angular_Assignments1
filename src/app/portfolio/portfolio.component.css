@@ -1,0 +1,18 @@
+#portofolio .fa-star
+{
+    position: relative;
+    font-size: 16px;
+}
+#portofolio .befor
+{
+    width: 80px;
+    height: 4px;
+    background-color: black;
+    margin: 10px;
+}
+.layer
+{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    transition: all 0.5s;
+}

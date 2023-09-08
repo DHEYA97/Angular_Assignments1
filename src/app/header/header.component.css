@@ -1,0 +1,24 @@
+.navbar
+{
+    background-color: var(--second-color);
+    color: white;
+}
+.navbar .navbar-brand
+{
+    color: white;
+    font-size:32px;
+    line-height:48px;
+    font-weight:700
+}
+.navbar-expand-sm .navbar-nav .nav-link
+{
+    color: white;
+    font-weight:700;
+    padding-right: 20px;
+    font-size: 16px;
+}
+.navbar-expand-sm .navbar-nav .nav-item .active
+{
+    background-color: var(--main-color);
+    border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+#about
+{
+    background-color: var(--main-color);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#about i
+{
+    position: relative;
+    font-size: 16px;
+}
+#about .befor
+{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    margin: 10px;
+}

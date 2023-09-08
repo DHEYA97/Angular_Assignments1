@@ -1,0 +1,11 @@
+#footer
+{
+    background-color: var(--second-color);
+}
+#footer .List ul li i
+{
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
